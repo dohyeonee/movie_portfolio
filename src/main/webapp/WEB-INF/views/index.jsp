@@ -110,7 +110,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
+                        <a class="collapse-item" href="login">Login</a>
                         <a class="collapse-item" href="register.html">Register</a>
                         <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
                         <div class="collapse-divider"></div>
@@ -130,12 +130,6 @@
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 
-            <!-- Sidebar Message -->
-            <div class="sidebar-card d-none d-lg-flex">
-                <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
-                <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
-            </div>
 
         </ul>
         <!-- End of Sidebar -->
@@ -351,11 +345,75 @@
                 <!-- End of Topbar -->
 
 
+                <!-- contents -->
+
+                <div class="card-group">
+                    <div class="card" style="">
+                        <img src="../../static/PARASITE.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../static/ThorLoveAndThunder.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../static/Forrest%20Gump.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 14rem;">
+                        <img src="../../static/Schindler's%20List.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card-group">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../static/The%20Dark%20Knight.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../static/The%20Godfather.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../static/The%20Shawshank%20Redemption.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../static/Forrest%20Gump.jpg" class="card-img-top" alt="..." style="width: 400px; height: 450px;">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-primary">예매하기</a>
+                        </div>
+                    </div>
+
+                </div>
+
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Dohyeon's Portfolio 2022</span>
                     </div>
                 </div>
             </footer>
