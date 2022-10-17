@@ -1,7 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -10,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
+    <title>회원가입</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -46,34 +45,29 @@
                 <div class="card-body p-0">
                     <!-- Nested Row within Card Body -->
                     <div class="row">
-                        <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-12">
                             <div class="p-5">
-                                <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">환영합니다</h1>
-                                </div>
                                 <form class="user">
                                     <div class="form-group">
-                                        <input type="email" class="form-control form-control-user"
+                                        <input type="text" class="form-control form-control-user"
                                                id="exampleInputEmail" aria-describedby="emailHelp"
+                                               name="id"
                                                placeholder="아이디">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control form-control-user"
-                                               id="exampleInputPassword" placeholder="비밀번호">
+                                               id="exampleInputPassword" name="pwd" placeholder="비밀번호">
                                     </div>
                                     <div class="form-group">
-                                        <div class="custom-control custom-checkbox small">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck">
-                                            <label class="custom-control-label" for="customCheck">아이디 기억하기
-                                                </label>
-                                        </div>
+                                        <input type="text" class="form-control form-control-user"
+                                               id="name" name="name" placeholder="이름">
                                     </div>
-                                    <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                        로그인
-                                    </a>
-                                    <a href="registerForm" class="btn btn-facebook btn-user btn-block">
-                                         회원가입
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control-user"
+                                               id="age" name="age" placeholder="나이">
+                                    </div>
+                                    <a href="register" class="btn btn-facebook btn-user btn-block">
+                                        회원가입 신청
                                     </a>
                                 </form>
                             </div>
